@@ -3,7 +3,7 @@ import type React from "react";
 interface NavItemProps {
     href: string;
     text?: string;
-    children: React.ReactNode
+    children?: React.ReactNode
 }
 
 export const NavItem = ({ href, text, children }: NavItemProps) => {
