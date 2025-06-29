@@ -17,15 +17,14 @@ export const Hero = () => {
                 </div>
                 <div className="relative flex flex-col items-center text-center lg:text-left lg:py-8 lg:items-start lg:max-w-none max-w-3xl  mx-auto lg:mx-0 lg:flex-1 lg:w-1/2">
                     <h1 className="text-heading-1 text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-bold">
-                        Hola Mundo
+                        Transformando Ideas en Realidad
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-violet-700 ml-2">
-                            HOLA A TODOS
+                            con Inteligencia Artificial
                         </span>
                     </h1>
                     <Contenido className="mt-5">
-                        <p>Empowering Ideas Through Code and AI.</p>
-                        <p>I’m a passionate developer building modern, scalable, and intelligent web experiences. From responsive frontends to robust backends and AI-driven features, I turn ideas into high-impact digital products.</p>
-                        <p>Let’s build the future, one line of code at a time.</p>
+                        <p>Soy un desarrollador apasionado, especializado en crear experiencias web modernas, escalables e inteligentes. Desde interfaces de usuario responsivas hasta soluciones backend robustas y características impulsadas por IA, mi objetivo es convertir tus ideas en productos digitales de alto impacto.</p>
+                        <p className="mt-3">Únete a nuestra comunidad para no perderte las últimas innovaciones y descubrir cómo la IA está redefiniendo el futuro.</p>
                     </Contenido>
 
                     <div className="mt-10 w-full flex max-w-md mx-auto lg:mx-0">
@@ -41,7 +40,7 @@ export const Hero = () => {
                                     aria-label="Subscribe"
                                 >
                                     <span className="relative z-[5]">
-                                        Subscribe
+                                        Suscribirme
                                     </span>
                                 </Buton>
                             </form>

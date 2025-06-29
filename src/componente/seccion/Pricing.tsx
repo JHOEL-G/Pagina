@@ -8,9 +8,9 @@ export const Pricing = () => {
     return (
         <section id="pricing" className="py-5">
             <Contenedor className="text-center">
-                <Titulo>PRICING</Titulo>
+                <Titulo>Nuestras Soluciones de IA</Titulo>
                 <Contenido className="mt-4">
-                    TODO SOBRE LA INTELIGENCIA ARTIFICIAL
+                    Descubre nuestras opciones flexibles diseñadas para adaptarse a tus necesidades. Ya sea para un proyecto individual, una startup en crecimiento o una empresa consolidada. <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-violet-600 pl-2">Tenemos el plan ideal para llevar tu iniciativa con Inteligencia Artificial al siguiente nivel.</span>
                 </Contenido>
             </Contenedor>
             <Contenedor className="mt-10">
@@ -21,7 +21,13 @@ export const Pricing = () => {
                                 <div className="bg-box-bg border border-box-border rounded-3xl shadow-lg shadow-box-shadow p-8 flex flex-col h-full relative">
                                     {plan.bestValue && (
                                         <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-primary text-white text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full bg-gradient-to-r from-blue-600 to-violet-700">
-                                            BEST VALUE
+                                            MÁS POPULAR
+                                        </div>
+                                    )}
+
+                                    {plan.mostPopular && (
+                                        <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-primary text-white text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full bg-gradient-to-r from-blue-600 to-violet-700">
+                                            MEJOR VALOR
                                         </div>
                                     )}
                                     <h3 className="text-2xl font-semibold text-heading-1">{plan.titulo}</h3>
