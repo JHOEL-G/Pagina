@@ -24,7 +24,7 @@ export const Brands = () => {
                             className="p-4 sm:p-5 rounded-xl bg-body border border-box-border group"
                         >
                             <img
-                                src={`/src/logos/${logo}.png`}
+                                src={`/logos/${logo}.png`}
                                 width={100}
                                 height={60}
                                 alt={`${logo}`}
