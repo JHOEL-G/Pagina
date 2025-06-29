@@ -49,7 +49,7 @@ export const Hero = () => {
                     </div>
                 </div>
                 <div className="flex flex-1 lg:w-1/2 lg:h-auto relative lg:max-w-none lg:max-0 mx-auto max-w-3xl">
-                    <img src="/src/assets/img.png" alt="imagen" width={2350} height={2359} className="lg:absolute lg:w-full lg:h-full rounded-3xl object-cover lg:max-h-none max-h-96" />
+                    <img src="/src/logos/img.png" alt="imagen" width={2350} height={2359} className="lg:absolute lg:w-full lg:h-full rounded-3xl object-cover lg:max-h-none max-h-96" />
                 </div>
             </Contenedor>
             <Numero />

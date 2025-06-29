@@ -12,7 +12,7 @@ export const Navbar = () => {
                 <nav className="w-full flex justify-between gap-6 relative">
                     <div className="min-w-max inline-flex relative">
                         <a href="/" className="relative flex items-center gap-3">
-                            <img src="/src/assets/img.png" alt="logo" className="w-10 h-10" />
+                            <img src="/src/logos/img.png" alt="logo" className="w-10 h-10" />
                             <div className="inline-flex text-2xl font-semibold text-heading-1">
                                 MASTER
                             </div>

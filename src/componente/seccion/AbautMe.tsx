@@ -10,7 +10,7 @@ export const AbautMe = () => {
             <Contenedor className="flex flex-col md:flex-row gap-10 lg:gap-12 items-center">
                 <div className="w-full md:w-5/12 lg:w-1/2">
                     <div className="w-full h-80 sm:h-96 relative">
-                        <img src="/src/assets/img.png" alt="abautme" className=" w-full h-full object-cover rounded-3xl shadow-lg relative z-10" />
+                        <img src="/src/logos/img.png" alt="abautme" className=" w-full h-full object-cover rounded-3xl shadow-lg relative z-10" />
                     </div>
                 </div>
                 <div className="w-full md:w-7/12 lg:1/ flex flex-col">
