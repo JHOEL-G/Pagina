@@ -8,13 +8,12 @@ export const AbautMe = () => {
     return (
         <section id="abautme" className="py-12 px-4 sm:px-6 lg:px-8">
             <Contenedor className="flex flex-col-reverse md:flex-row items-center gap-10 lg:gap-16">
-                {/* Texto e información */}
                 <div className="w-full md:w-7/12 flex flex-col text-center md:text-left">
                     <Titulo>Descubre el Mundo de la Inteligencia Artificial</Titulo>
                     <Contenido className="p-2">
                         Aprende sobre la capacidad de las computadoras para ver y procesar imágenes del mundo real, desde el reconocimiento facial hasta los vehículos autónomos.
                     </Contenido>
-                    <div className="pt-8 grid grid-cols-1 sm:grid-cols-2 gap-6">
+                    <div className="pt-8 grid grid-cols-1 md:grid-cols-2 gap-6">
                         <Info
                             titulo="NUESTRA MISIÓN"
                             descripcion="Empoderar a empresas y personas con soluciones de inteligencia artificial innovadoras que impulsen el progreso y la eficiencia en un mundo en constante evolución."
@@ -36,7 +35,6 @@ export const AbautMe = () => {
                     </div>
                 </div>
 
-                {/* Imagen */}
                 <div className="w-full md:w-5/12">
                     <div className="w-full h-64 sm:h-80 md:h-96 relative">
                         <img

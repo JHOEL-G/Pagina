@@ -17,7 +17,16 @@ export const Accion = () => {
                             En un mundo que evoluciona rápidamente, la IA es la clave para la innovación y el progreso. Descubre cómo esta tecnología está transformando industrias y redefiniendo nuestras vidas.
                         </Contenido>
                         <div className="mx-auto max-w-md sm:max-w-xl pt-10 dark:text-white">
-                            <Buton>EXPLORA LA IA AHORA</Buton>
+                            <Buton className="  hover:bg-blue-900 transition">
+                                <a
+                                    href="https://cloud.google.com/learn/what-is-artificial-intelligence?hl=es-419"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className=" text-white px-4 py-2 rounded"
+                                >
+                                    EXPLORA LA IA AHORA
+                                </a>
+                            </Buton>
                         </div>
                     </div>
                 </div>

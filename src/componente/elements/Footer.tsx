@@ -17,6 +17,9 @@ export const Footer = () => {
                         ))}
                     </ul>
                 </div>
+                <div className="mt-6 text-center pl-[980px] text-sm text-heading-2">
+                    © {new Date().getFullYear()} Todos los derechos reservados.
+                </div>
             </Contenedor>
         </footer>
     )

@@ -3,8 +3,8 @@ import { MdPersonAdd } from "react-icons/md";
 import { RiCustomerService2Fill } from "react-icons/ri";
 
 export const navItems = [
-    { href: '#', text: 'Home', icon: IoHomeOutline },
-    { href: '#service', text: 'Servicios', icon: RiCustomerService2Fill }, 
-    { href: '#abautme', text: 'Sobre Mí', icon: MdPersonAdd }, 
-    { href: '#pricing', text: 'Facturas', icon: IoLogoDiscord  },
+    { href: '#', text: 'Dashboard', icon: IoHomeOutline },
+    { href: '#service', text: 'Lo que hago', icon: RiCustomerService2Fill }, 
+    { href: '#aboutme', text: 'Quién soy', icon: MdPersonAdd }, 
+    { href: '#pricing', text: 'Planes', icon: IoLogoDiscord },
 ];
